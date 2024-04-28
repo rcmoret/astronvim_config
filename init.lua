@@ -67,8 +67,7 @@ return {
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
-    vim.opt.relativenumber = false
     vim.opt.background = "light"
-    vim.cmd("colorscheme ayu")
+    vim.cmd("colorscheme catppuccin")
   end,
 }
